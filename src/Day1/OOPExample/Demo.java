@@ -79,5 +79,6 @@ public class Demo {
         Warehouse warehouse = new Warehouse();
         Item item = warehouse.getItem(2);
         System.out.println(item);
+        //System.out.println(warehouse.getItem(2));
     }
 }
