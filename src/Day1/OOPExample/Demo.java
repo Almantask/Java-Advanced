@@ -75,5 +75,9 @@ public class Demo {
 
         Card card = new Card(Card.Rank.Jack, Card.Suite.Diamonds);
         System.out.println(card);
+
+        Warehouse warehouse = new Warehouse();
+        Item item = warehouse.getItem(2);
+        System.out.println(item);
     }
 }
